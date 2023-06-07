@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: sans-serif;
+    font-family: Roboto;
     margin: 0;
 }
 
@@ -115,6 +115,7 @@ ul {
 
 .main-three {
     display: flex;
+    flex-direction: column;
     padding: 32px;
     background-color: #e5e7eb;
     margin-bottom: 64px;
@@ -128,6 +129,7 @@ ul {
     justify-content: center;
     align-items: center;
     color: #1F2937;
+    padding: 24px 36px;
 }
 
 .author {
@@ -137,6 +139,8 @@ ul {
     justify-content: flex-end;
     align-self: flex-end;
     font-size: 18px;
+    margin-top: -16px;
+    padding-bottom: 32px;
 }
 
 .main-four {
