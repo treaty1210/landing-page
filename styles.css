@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: sans-serif
 }
 
 .header, .footer, .main-one {
@@ -44,7 +45,7 @@ ul {
 .main-text {
     color: #f9faf8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
 }
 
 .secondary-text {
@@ -68,8 +69,9 @@ button {
     justify-content: center;
     align-items: center;
     font-size: 36px;
-    font-weight: extra-bold;
-    color: #1F2937
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
 }
 
 .image-line {
@@ -78,13 +80,15 @@ button {
     gap: 16px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 64px;
 }
 
+/*
 .ani-img {
     display: flex;
     border: 8px #3882f6;
 }
-
+*/
 .desc {
     color: #606469;
 }
@@ -93,5 +97,24 @@ button {
     display: flex;
     padding: 32px;
     background-color: #e5e7eb;
+    margin-bottom: 64px;
+    gap: 16px;
 }
 
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+}
+
+.author {
+    display: flex;
+    color: #1F2937;
+    font-weight: 800;
+    justify-content: flex-end;
+    align-self: flex-end;
+    font-size: 18px;
+}
