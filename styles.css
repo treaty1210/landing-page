@@ -1,7 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: sans-serif
+    font-family: sans-serif;
+    margin: 0;
 }
 
 .header, .footer, .main-one {
@@ -37,31 +38,48 @@ ul {
 
 .main-one {
     display: flex;
-    justify-content: space-between;
+
     flex: 1;
     margin-bottom: 64px;
+    padding-bottom: 64px;
 }
 
 .main-text {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 800;
+    margin-left: 32px;
 }
 
 .secondary-text {
     color: #e5e7eb;
     font-size: 18px;
+    margin-left: 32px;
+    margin-top: -30px;
 }
 
-button {
+.info-button {
     background-color: #3882f6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    padding-left: 24px;
 }
 
 .main-image {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    flex: 1;
+    flex-shrink: 0;
+    max-width: 400px;
 }
 
 .main-two {
@@ -77,18 +95,20 @@ button {
 .image-line {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 24px;
     justify-content: center;
     align-items: center;
     margin-bottom: 64px;
 }
 
-/*
-.ani-img {
+.ani-one, .ani-two, .ani-three, .ani-four {
     display: flex;
-    border: 8px #3882f6;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    flex-wrap: wrap;
 }
-*/
+
 .desc {
     color: #606469;
 }
@@ -124,6 +144,8 @@ button {
     margin: 0 64px;
     background-color: #3882f6;
     color: #f9faf8;
+    border-radius: 25px;
+    padding: 20px;
 }
 
 .message {
@@ -139,11 +161,23 @@ button {
     margin-left: 32px;
 }
 
+.button-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 64px;
+}
 .button-box {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 32px;
+    border: 2px solid #f9faf8;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    color: #f9faf8;
+    background-color: #3882f6;
 }
 
 .footer {
