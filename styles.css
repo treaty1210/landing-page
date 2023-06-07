@@ -34,36 +34,53 @@ ul {
     color: #e5e7eb;
     font-size: 18px;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .main-one {
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
     flex: 1;
     margin-bottom: 64px;
     padding-bottom: 64px;
 }
 
+.left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
 .main-text {
+    display: flex;
+    flex-wrap: wrap;
     color: #f9faf8;
     font-size: 48px;
     font-weight: 800;
     margin-left: 32px;
+    margin-bottom: -16px;
 }
 
 .secondary-text {
     color: #e5e7eb;
     font-size: 18px;
     margin-left: 32px;
-    margin-top: -30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .info-button {
+    display: flex;
     background-color: #3882f6;
     border: none;
     padding: 10px 20px;
     border-radius: 12px;
     text-align: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
 }
 .right {
     display: flex;
