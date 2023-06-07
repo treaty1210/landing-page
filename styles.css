@@ -40,9 +40,10 @@ ul {
 .main-one {
     display: flex;
     align-items: center;
-    flex: 1;
     margin-bottom: 64px;
     padding-bottom: 64px;
+    margin-right: 0;
+    justify-content: space-between;
 }
 
 .left {
@@ -82,19 +83,17 @@ ul {
 }
 .right {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    max-width: 400px;
     padding-left: 24px;
+    flex: 1;
 }
 
 .main-image {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex-shrink: 0;
-    max-width: 400px;
 }
 
 .main-two {
